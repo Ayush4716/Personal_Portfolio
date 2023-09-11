@@ -15,7 +15,7 @@ const Banner = () =>{
     {/* description */}
     <div className="w-3/4">
         <h1>Ayush Dey</h1>
-        <h3>Full Stack Developer</h3>
+        <h3>I Am a Developer</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quod iste totam, expedita modi velit laboriosam numquam rerum cupiditate est, sequi minima praesentium.</p>
     </div>
     </div>
