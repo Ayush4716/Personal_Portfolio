@@ -5,7 +5,7 @@ const Banner = () =>{
     return( 
     <div className="py-20 flex items-center gap-10">
         {/* image */}
-    <div className="w-44 h-44 rounded-full bg-black">
+    <div className="w-44 h-44 rounded-full bg-white">
     <Image 
     className="w-full h-full rounded-full border-[1px] border-indigo-700 p-2 object-cover"
     src={ProfileImg} 
@@ -14,8 +14,8 @@ const Banner = () =>{
     </div>
     {/* description */}
     <div className="w-3/4">
-        <h1>Ayush Dey</h1>
-        <h3>I Am a Developer</h3>
+        <h1 className="text-5xl font-bold text-white">Ayush Dey</h1>
+        <h3 className="2xl font-">I Am a Developer</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quod iste totam, expedita modi velit laboriosam numquam rerum cupiditate est, sequi minima praesentium.</p>
     </div>
     </div>
